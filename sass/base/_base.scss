@@ -1,0 +1,21 @@
+// This file is for restes, styles and body
+
+/* basic CSS reset.  */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* force inheritance. */
+  box-sizing: inherit;
+}
+
+html {
+  /* the default size is 16px. 100% would be 16px.
+  so 100/16. this increases the measurements we have on the page.*/
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
